@@ -1,0 +1,16 @@
+{
+  "name": "mernproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+   "start-backend": "cd backend/expense_tracker && npm start",
+   "start-frontend": "cd frontend/expanse_management && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
